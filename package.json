@@ -1,0 +1,36 @@
+{
+  "name": "red_bicicletas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API de bicicletas con Express, Mongoose, MongoDB, Passport, JWT y login social",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "~4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.0",
+    "morgan": "~1.10.0",
+    "newrelic": "^12.5.0",
+    "nodemailer": "^6.9.14",
+    "passport": "^0.7.0",
+    "passport-facebook-token": "^4.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "^5.1.0",
+    "request": "^2.88.2"
+  }
+}
